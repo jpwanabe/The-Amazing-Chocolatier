@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+     "item": "minecraft:yellow_dye"
+    },
+    {
+     "item": "minecraft:red_dye"
+    },
+    {
+     "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "cohcustomitem:bubby_wrapper",
+    "count": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "cohcustomitem",
+	"version": "${version}",
+	"name": "cohcustomitem",
+	"description": "Custom items made for the CoH servers",
+	"authors": [
+		"JP-sama"
+	],
+	"contact": {
+		"homepage": "createoholics.com",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/cohcustomitem/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.jpsama.cohcustomitem.Cohcustomitem"
+		],
+		"client": [
+			"net.jpsama.cohcustomitem.CohcustomitemClient"
+		],
+		"fabric-datagen": [
+			"net.jpsama.cohcustomitem.CohcustomitemDataGenerator"
+		]
+	},
+	"mixins": [
+		"cohcustomitem.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"create": ">=0.5.0"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
