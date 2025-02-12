@@ -13,10 +13,12 @@ import net.minecraft.util.Identifier;
 import javax.xml.namespace.QName;
 
 public class ModsItems {
-    public static final Item BUBBY_BAR = registerItem("bubby_bar", new Item(new FabricItemSettings()));
+    public static final Item BUBBY_BAR = registerItem("bubby_bar", new Item(new FabricItemSettings().food(ModFoodComponents.BUBBY_BAR)));
+    public static final Item BUBBY_WRAPPER = registerItem("bubby_wrapper", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
         entries.add(BUBBY_BAR);
+        entries.add(BUBBY_WRAPPER);
     }
 
 

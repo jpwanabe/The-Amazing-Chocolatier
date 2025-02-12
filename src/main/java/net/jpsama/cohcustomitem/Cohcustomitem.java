@@ -2,6 +2,7 @@ package net.jpsama.cohcustomitem;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jpsama.cohcustomitem.item.ModItemGroups;
 import net.jpsama.cohcustomitem.item.ModsItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,10 +13,8 @@ public class Cohcustomitem implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		ModItemGroups.registerItemGroups();
 		ModsItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("It burns when I pee");
 	}
 }
