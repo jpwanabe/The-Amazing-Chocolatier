@@ -1,0 +1,16 @@
+{
+  "type": "create:mixing",
+  "heatRequirement": "superheated",
+  "ingredients": [
+    {
+      "amount": 4050,
+      "fluid": "create:chocolate"
+    }
+  ],
+  "results": [
+    {
+      "amount": 4050,
+      "fluid": "create_dd:hot_chocolate"
+    }
+  ]
+}
