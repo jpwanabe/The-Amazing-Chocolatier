@@ -2,7 +2,6 @@ package net.jpsama.cohcustomitem.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.jpsama.cohcustomitem.Cohcustomitem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -14,9 +13,9 @@ public class ModItemGroups {
     public static final ItemGroup COH_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(Cohcustomitem.MOD_ID, "coh"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.coh"))
-                    .icon( () -> new ItemStack(ModsItems.BUBBY_BAR)).entries((displayContext, entries) -> {
-                        entries.add(ModsItems.BUBBY_BAR);
-                        entries.add(ModsItems.BUBBY_WRAPPER);
+                    .icon( () -> new ItemStack(ModItems.BUBBY_BAR)).entries((displayContext, entries) -> {
+                        entries.add(ModItems.BUBBY_BAR);
+                        entries.add(ModItems.BUBBY_WRAPPER);
 
                     }).build());
 

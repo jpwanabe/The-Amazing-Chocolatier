@@ -10,10 +10,9 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import javax.xml.namespace.QName;
-
-public class ModsItems {
-    public static final Item BUBBY_BAR = registerItem("bubby_bar", new Item(new FabricItemSettings().food(ModFoodComponents.BUBBY_BAR)));
+public class ModItems {
+ //   public static final Item BUBBY_BAR = registerItem("bubby_bar", new Item(new FabricItemSettings().food(ModFoodComponents.BUBBY_BAR)));
+ public static final Item BUBBY_BAR = registerItem("bubby_bar", new BUBBY_BAR(new FabricItemSettings().food(ModFoodComponents.BUBBY_BAR)));
     public static final Item BUBBY_WRAPPER = registerItem("bubby_wrapper", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
@@ -27,7 +26,7 @@ public class ModsItems {
     }
     public static void registerModItems() {
         Cohcustomitem.LOGGER.info("Registering Mod Items for " + Cohcustomitem.MOD_ID);
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModsItems::addItemsToIngredientItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
 
 }
