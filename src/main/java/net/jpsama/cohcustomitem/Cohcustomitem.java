@@ -15,6 +15,7 @@ public class Cohcustomitem implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		net.jpsama.cohcustomitem.effect.ModEffects.registerEffects();
 		LOGGER.info("It burns when I pee");
 	}
 }

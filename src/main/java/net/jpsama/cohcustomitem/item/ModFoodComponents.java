@@ -10,5 +10,5 @@ import net.minecraft.stat.Stat;
 public class ModFoodComponents {
 
     public static final FoodComponent BUBBY_BAR = new FoodComponent.Builder().hunger(10).saturationModifier(10)
-            .alwaysEdible().statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 600, 4), 1).build();
+            .alwaysEdible().build();
 }

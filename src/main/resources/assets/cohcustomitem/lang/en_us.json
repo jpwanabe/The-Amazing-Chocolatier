@@ -1,6 +1,10 @@
 {
   "item.cohcustomitem.bubby_bar": "Bubby Bar",
   "item.cohcustomitem.bubby_wrapper": "Bubby Wrapper",
+  "item.cohcustomitem.gticket": "Golden Ticket",
 
-  "itemgroup.coh": "Coh Items"
+  "itemgroup.coh": "Coh Items",
+
+
+  "effect.cohcustomitem.sugar_rush": "Sugar Rush"
 }

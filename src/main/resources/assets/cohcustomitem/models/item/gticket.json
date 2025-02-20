@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cohcustomitem:item/gticket"
+  },
+  "overrides": [
+    {
+      "predicate": {"cohcustomitem:in_hand":  1.0},
+      "model": "cohcustomitem:item/gticket_in_hand"
+    }
+  ]
+}

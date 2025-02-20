@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "cohcustomitem",
-	"version": "${version}",
+	"version": "0.2",
 	"name": "cohcustomitem",
 	"description": "Custom items made for the CoH servers",
 	"authors": [
@@ -19,7 +19,8 @@
 			"net.jpsama.cohcustomitem.Cohcustomitem"
 		],
 		"client": [
-			"net.jpsama.cohcustomitem.CohcustomitemClient"
+			"net.jpsama.cohcustomitem.CohcustomitemClient",
+			"net.jpsama.cohcustomitem.client.ModClientInit"
 		],
 		"fabric-datagen": [
 			"net.jpsama.cohcustomitem.CohcustomitemDataGenerator"

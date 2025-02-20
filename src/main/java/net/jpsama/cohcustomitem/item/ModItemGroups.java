@@ -16,6 +16,7 @@ public class ModItemGroups {
                     .icon( () -> new ItemStack(ModItems.BUBBY_BAR)).entries((displayContext, entries) -> {
                         entries.add(ModItems.BUBBY_BAR);
                         entries.add(ModItems.BUBBY_WRAPPER);
+                        entries.add(ModItems.GTICKET);
 
                     }).build());
 
