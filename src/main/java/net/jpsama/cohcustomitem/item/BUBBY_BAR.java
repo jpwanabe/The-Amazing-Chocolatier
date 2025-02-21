@@ -50,7 +50,7 @@ public class BUBBY_BAR extends Item {
                 player.sendMessage(Text.literal("§aWow! §fYou didn't eat the §bwrapper §fthis time!"), false);
             }
 
-            double chance3 = 0.001;
+            double chance3 = 0.01;
             if (random.nextDouble() < chance3) {
                 ItemStack item2 = new ItemStack(ModItems.GTICKET, 1);
                 player.getInventory().insertStack(item2);

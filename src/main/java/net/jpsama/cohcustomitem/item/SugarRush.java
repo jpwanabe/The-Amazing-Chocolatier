@@ -17,11 +17,11 @@ public class SugarRush extends StatusEffect {
 
         // Add Speed Boost
         this.addAttributeModifier(EntityAttributes.GENERIC_MOVEMENT_SPEED, SUGAR_RUSH_SPEED_ID.toString(),
-                0.2, EntityAttributeModifier.Operation.MULTIPLY_TOTAL);
+                0.5, EntityAttributeModifier.Operation.MULTIPLY_TOTAL);
 
         // Add Attack Speed (Haste-like)
         this.addAttributeModifier(EntityAttributes.GENERIC_ATTACK_SPEED, SUGAR_RUSH_HASTE_ID.toString(),
-                0.3, EntityAttributeModifier.Operation.MULTIPLY_TOTAL);
+                0.5, EntityAttributeModifier.Operation.MULTIPLY_TOTAL);
     }
 
     @Override

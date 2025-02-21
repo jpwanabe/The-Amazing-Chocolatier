@@ -17,6 +17,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BUBBY_BAR);
                         entries.add(ModItems.BUBBY_WRAPPER);
                         entries.add(ModItems.GTICKET);
+                        entries.add(ModItems.FISSYDRINK);
 
                     }).build());
 
