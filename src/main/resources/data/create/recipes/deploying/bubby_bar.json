@@ -6,12 +6,12 @@
       "item": "create:bar_of_chocolate"
     },
     {
-      "item": "cohcustomitem:bubby_wrapper"
+      "item": "acm:bubby_wrapper"
     }
   ],
   "results": [
     {
-      "item": "cohcustomitem:bubby_bar"
+      "item": "acm:bubby_bar"
     }
   ]
 }

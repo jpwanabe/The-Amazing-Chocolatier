@@ -3,14 +3,14 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "cohcustomitem:bubby_wrapper"
+      "item": "acm:bubby_wrapper"
     },
     {
       "item": "create:item/bar_of_chocolate"
     }
   ],
   "result": {
-    "item": "cohcustomitem:bubby_bar",
+    "item": "acm:bubby_bar",
     "count": 1
   }
 }

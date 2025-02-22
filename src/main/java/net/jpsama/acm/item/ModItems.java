@@ -12,16 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
- //   public static final Item BUBBY_BAR = registerItem("bubby_bar", new Item(new FabricItemSettings().food(ModFoodComponents.BUBBY_BAR)));
      public static final Item BUBBY_BAR = registerItem("bubby_bar", new BUBBY_BAR(new FabricItemSettings().food(ModFoodComponents.BUBBY_BAR)));
      public static final Item BUBBY_WRAPPER = registerItem("bubby_wrapper", new Item(new FabricItemSettings()));
      public static final Item GTICKET = registerItem("gticket", new Item(new FabricItemSettings()));
-     public static final Item FISSYDRINK = registerItem("fissydrink", new FissyDrink(new FabricItemSettings().food(ModFoodComponents.FISSYDRINK)));
+     public static final Item LIFTINGDRINK = registerItem("liftingdrink", new LIFTINGDRINK(new FabricItemSettings().food(ModFoodComponents.LIFTINGDRINK)));
 
-
- //   public static final Item FISSYDRINK = new FissyDrink(
- //        new Item.Settings(). // Like potions
- //   );
 
 
 
@@ -30,7 +25,7 @@ public class ModItems {
         entries.add(BUBBY_BAR);
         entries.add(BUBBY_WRAPPER);
         entries.add(GTICKET);
-        entries.add(FISSYDRINK);
+        entries.add(LIFTINGDRINK);
     }
 
 

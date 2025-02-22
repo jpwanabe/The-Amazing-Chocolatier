@@ -11,14 +11,14 @@ import net.minecraft.item.Items;
 import net.minecraft.util.UseAction;
 import net.minecraft.world.World;
 
-public class FissyDrink extends Item {
-    public FissyDrink(Settings settings){
+public class LIFTINGDRINK extends Item {
+    public LIFTINGDRINK(Settings settings){
         super(settings.food(new FoodComponent.Builder()
                 .hunger(0)
                 .saturationModifier(100)
                 .alwaysEdible()
-                .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 100, 2), 1.0F)
-                .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 100, 1), 0.2F)
+                .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 200, 4), 1.0F)
+                .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 100, 0), 0.2F)
                 .build()));
     }
 
