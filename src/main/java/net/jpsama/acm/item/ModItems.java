@@ -16,6 +16,7 @@ public class ModItems {
      public static final Item BUBBY_WRAPPER = registerItem("bubby_wrapper", new Item(new FabricItemSettings()));
      public static final Item GTICKET = registerItem("gticket", new Item(new FabricItemSettings()));
      public static final Item LIFTINGDRINK = registerItem("liftingdrink", new LIFTINGDRINK(new FabricItemSettings().food(ModFoodComponents.LIFTINGDRINK)));
+     public static final Item EMPTYDRINK = registerItem("emptydrink", new Item(new FabricItemSettings()));
 
 
 
@@ -26,6 +27,7 @@ public class ModItems {
         entries.add(BUBBY_WRAPPER);
         entries.add(GTICKET);
         entries.add(LIFTINGDRINK);
+        entries.add(EMPTYDRINK);
     }
 
 

@@ -19,11 +19,10 @@ public class ModClientInit implements ClientModInitializer {
                 new Identifier("acm", "in_hand"),
                 (stack, world, entity, seed) -> {
                     if (entity != null) {
-                        // Case 1: Held in hand
                         ItemStack mainHand = entity.getMainHandStack();
                         ItemStack offHand = entity.getOffHandStack();
                         if (stack == mainHand || stack == offHand) {
-                            return 1.0F; // In hand texture
+                            return 0.0F;
                         }
                     }
                     // Case 2: Item is dropped (rendered as an entity)

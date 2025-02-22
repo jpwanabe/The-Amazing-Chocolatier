@@ -1,5 +1,6 @@
 package net.jpsama.acm.item;
 
+import net.jpsama.acm.Acm;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
@@ -17,9 +18,13 @@ public class LIFTINGDRINK extends Item {
                 .hunger(0)
                 .saturationModifier(100)
                 .alwaysEdible()
-                .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 200, 4), 1.0F)
+                .statusEffect(new StatusEffectInstance(StatusEffects.LEVITATION, 200, 0), 1.0F)
                 .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 100, 0), 0.2F)
                 .build()));
+    }
+    @Override
+    public boolean hasGlint(ItemStack stack){
+        return true;
     }
 
     @Override
@@ -30,8 +35,10 @@ public class LIFTINGDRINK extends Item {
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user){
         if (user instanceof PlayerEntity player){
-            player.getInventory().insertStack(new ItemStack(Items.GLASS_BOTTLE));
+            player.getInventory().insertStack(new ItemStack(ModItems.EMPTYDRINK));
         }
         return super.finishUsing(stack, world, user);
     }
+
+
 }

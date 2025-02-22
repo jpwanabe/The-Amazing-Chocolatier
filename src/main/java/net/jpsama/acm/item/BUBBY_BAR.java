@@ -49,7 +49,7 @@ public class BUBBY_BAR extends Item {
             if (random.nextDouble() < chance3) {
                 ItemStack item2 = new ItemStack(ModItems.GTICKET, 1);
                 player.getInventory().insertStack(item2);
-                player.sendMessage(Text.literal("GTICKET!"), false);
+                player.sendMessage(Text.literal("§fYou found a §6GOLDEN TICKET §f!"), false);
             }
         }
 
