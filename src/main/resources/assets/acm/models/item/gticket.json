@@ -1,0 +1,12 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "acm:item/gticket"
+  },
+  "overrides": [
+    {
+      "predicate": {"acm:in_hand":  1.0},
+      "model": "acm:item/gticket_in_hand"
+    }
+  ]
+}

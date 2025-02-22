@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "cohcustomitem",
-	"version": "0.2",
-	"name": "cohcustomitem",
+	"id": "chocolatier",
+	"version": "0.3",
+	"name": "Chocolatier",
 	"description": "Custom items made for the CoH servers",
 	"authors": [
 		"JP-sama"
@@ -11,23 +11,23 @@
 		"homepage": "createoholics.com",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/cohcustomitem/icon.png",
+	"license": "MIT",
+	"icon": "assets/acm/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.jpsama.cohcustomitem.Cohcustomitem"
+			"net.jpsama.acm.Acm"
 		],
 		"client": [
-			"net.jpsama.cohcustomitem.CohcustomitemClient",
-			"net.jpsama.cohcustomitem.client.ModClientInit"
+			"net.jpsama.acm.AcmClient",
+			"net.jpsama.acm.client.ModClientInit"
 		],
 		"fabric-datagen": [
-			"net.jpsama.cohcustomitem.CohcustomitemDataGenerator"
+			"net.jpsama.acm.AcmDataGenerator"
 		]
 	},
 	"mixins": [
-		"cohcustomitem.mixins.json"
+		"acm.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
