@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "BAB",
+    " B "
+  ],
+    "key": {
+        "A": {
+        "item": "minecraft:paper"
+      },
+        "B": {
+        "item": "minecraft:glass"
+      }
+    },
+    "result":{
+      "item": "acm:emptydrink",
+      "count": 1
+    }
+}

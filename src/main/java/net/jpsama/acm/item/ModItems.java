@@ -12,12 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-     public static final Item BUBBY_BAR = registerItem("bubby_bar", new BUBBY_BAR(new FabricItemSettings().food(ModFoodComponents.BUBBY_BAR)));
-     public static final Item BUBBY_WRAPPER = registerItem("bubby_wrapper", new Item(new FabricItemSettings()));
-     public static final Item GTICKET = registerItem("gticket", new Item(new FabricItemSettings()));
-     public static final Item LIFTINGDRINK = registerItem("liftingdrink", new LIFTINGDRINK(new FabricItemSettings().food(ModFoodComponents.LIFTINGDRINK)));
-     public static final Item EMPTYDRINK = registerItem("emptydrink", new Item(new FabricItemSettings()));
-
+    public static final Item BUBBY_BAR = registerItem("bubby_bar", new BUBBY_BAR(new FabricItemSettings().food(ModFoodComponents.BUBBY_BAR)));
+    public static final Item BUBBY_WRAPPER = registerItem("bubby_wrapper", new Item(new FabricItemSettings()));
+    public static final Item GTICKET = registerItem("gticket", new Item(new FabricItemSettings()));
+    public static final Item LIFTINGDRINK = registerItem("liftingdrink", new LIFTINGDRINK(new FabricItemSettings().food(ModFoodComponents.LIFTINGDRINK)));
+    public static final Item EMPTYDRINK = registerItem("emptydrink", new Item(new FabricItemSettings()));
 
 
 

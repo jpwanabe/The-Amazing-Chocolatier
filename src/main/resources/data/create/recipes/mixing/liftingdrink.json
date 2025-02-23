@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "acm:emptydrink"
+    },
+    {
+      "item": "acm:emptydrink"
+    },
+    {
+      "item": "acm:emptydrink"
+    },
+    {
+      "amount": 81000,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "count": 3,
+      "item": "acm:liftingdrink"
+    }
+  ]
+}

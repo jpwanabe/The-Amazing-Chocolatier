@@ -16,6 +16,7 @@ public class Acm implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		net.jpsama.acm.effect.ModEffects.registerEffects();
+
 		LOGGER.info("It burns when I pee");
 	}
 }
